@@ -112,7 +112,7 @@ if __name__ == '__main__':
     date = (start,end)
     interval = '1d' #'1wk', '1mo'
     col = 'Adj Close' # 'Open', 'High', 'Low', 'Close', 'Volume'
-    file = '/Users/puxiang/Desktop/'+col+'_stocks.csv'
+    file = col+'_stocks.csv'
     stock_updater(tickers,date,interval,'Adj Close',file)
     
 
